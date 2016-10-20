@@ -19,6 +19,7 @@ I am yet to find a puzzle the algorithm can't solve within a few seconds.
 
 Here is a little more detail of how the algorithm works:  
 For simplicity, let's assume that no moves have been resolved (this would never actually happen as we always start with a given game)  
+
 In this scenario, we have 9 possible moves to make fr each cell:
 
   9 9 9 9 9 9 9 9 9  
@@ -31,8 +32,8 @@ In this scenario, we have 9 possible moves to make fr each cell:
   9 9 9 9 9 9 9 9 9  
   9 9 9 9 9 9 9 9 9  
 
-Now let's say that the algorithm wants to put a 2 at cell (2,2)
-The 2D array of moves would now look like this:
+Now let's say that the algorithm wants to put a 2 at cell (2,2)  
+The 2D array of moves would now look like this:  
 
   **8 8 8** 9 9 9 9 9 9  
   **8 8 8** 9 9 9 9 9 9   
@@ -43,6 +44,5 @@ The 2D array of moves would now look like this:
   9 9 **8** 9 9 9 9 9 9  
   9 9 **8** 9 9 9 9 9 9  
   9 9 **8** 9 9 9 9 9 9  
-  
   
 As this continues, if the number of moves for any cell reaches 0, we backtrack 
