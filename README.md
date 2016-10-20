@@ -45,4 +45,4 @@ The 2D array of moves would now look like this:
   9 9 **8** 9 9 9 9 9 9  
   
   
-  
+As this continues, if the number of moves for any cell reaches 0, we backtrack 
