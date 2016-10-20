@@ -20,7 +20,7 @@ I am yet to find a puzzle the algorithm can't solve within a few seconds.
 Here is a little more detail of how the algorithm works:  
 For simplicity, let's assume that no moves have been resolved (this would never actually happen as we always start with a given game)  
 
-In this scenario, we have 9 possible moves to make fr each cell:
+In this scenario, we have 9 possible moves to make for each cell:
 
   9 9 9 9 9 9 9 9 9  
   9 9 9 9 9 9 9 9 9  
